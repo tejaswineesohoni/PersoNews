@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link href="index.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">;
+
+	<meta charset="utf-8">
+	<title> persoNews </title>
+	
+	
+
+</head>
+<body>
+
+	 <div class="container">
+        <div class="wrapper">
+
+	<div id="intro">
+        <img src = "{{ url_for('static', filename='persoNewsIcon.jpg') }}">
+		<h1> Welcome to persoNews! </h1>
+		<h3> Your News, Your Way </h3>
+	</div>
+	<div id="user">
+		<h5> Enter any Twitter handle here to begin: </h5>
+        <form action="/persoNews" method="POST">
+            <input id="query-box1" type="text" name="text" value={{twitter_handle}}></form>
+		<form method="POST" action="/persoNews">
+			<input id="search-button1" type="submit" value="Search"></form>
+		</div> 
+	</div>
+</div>
+
+	</body>
+	</html>

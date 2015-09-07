@@ -1,0 +1,48 @@
+body {
+    background-color: #564792;
+    
+}
+
+img {
+    background-color: #564792;
+}
+
+#intro {
+    text-align: center;
+    margin-top: 8em;
+    color: #d8d1f4;
+    font-size: 20px;
+}
+
+
+#user h5 {
+    color: #d8d1f4;
+    float: left;
+    margin-top: 1em;
+    margin-left: 40%;
+    font-size: 15px;
+}
+
+#search-button1 {
+    float: left;
+    margin-top: 4em;
+    margin-left: -7em;
+    background-color: #d8d1f4;
+    padding: 5.2px;
+}
+
+#query-box1 {
+    float: left;
+    margin-top: 4em;
+    margin-left: -21em;
+    background-color: black;
+    height: 20px;
+    font: white;
+    border: 3px solid #d8d1f4;
+}
+
+#query-box1:focus {
+    color: white;
+}
+
+	
